@@ -1,0 +1,46 @@
+.userInterface, .userInterface__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.userInterface__top {
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.userInterface__form label {
+    margin: 0 0 10px 0;
+}
+
+.userInterface__add span {
+    margin: 0 10px 0 0;
+}
+
+.userInterface__add label:first-child {
+    margin-top: 20px;
+}
+
+.userInterface__buttons {
+    margin: 10px 0 40px 0;
+    text-align: center;
+}
+
+.userInterface__sort {
+    margin: 0 auto 15px;
+    max-width: 200px;
+}
+
+.userInterface__sort span:first-child {
+    margin: 0 0 10px 0;
+}
+
+.userInterface__table {
+    border-collapse: collapse;
+}
+
+.userInterface__table th, .userInterface__table td {
+    font-weight: 400;
+    padding: 6px;
+    border: 1px solid #333;
+    text-align: left;
+}
